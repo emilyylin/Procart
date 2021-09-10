@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;900&display=swap');
+
+.budget-image {
+    margin-top:70px;
+    height:60%;
+    width:60%;
+}
+.budget-page {
+    overflow:hidden;
+}

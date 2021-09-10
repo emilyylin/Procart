@@ -1,23 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MainPage from './MainPage';
 import {
   Router,
-  Link,
-  goBack,
-  goTo,
-  popToTop
 } from "react-chrome-extension-router";
-import Cart from './pages/Cart';
-import Budget from './pages/Budget';
-import History from './pages/History';
+import Landing from './pages/Landing';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Cart />
+      <Landing />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

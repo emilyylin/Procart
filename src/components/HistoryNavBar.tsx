@@ -8,15 +8,7 @@ import PinkBudget from "../navbar_icons/budget-pink.png";
 import Cart from '../pages/Cart';
 import Budget from '../pages/Budget';
 import History from '../pages/History';
-import {
-  goBack,
-  goTo,
-  popToTop,
-  Link,
-  Router,
-  getCurrent,
-  getComponentStack,
-} from 'react-chrome-extension-router';
+import {goTo} from 'react-chrome-extension-router';
 
 function HistoryNavBar() {
   return (
