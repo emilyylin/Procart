@@ -1,25 +1,30 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  "name": "Procart",
+  "description": "Procart",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "js/content_script.js"
+      ]
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'", 
+  "background" : {
+    "scripts" : ["js/background.js"],
+    "persistent": false
+  },
+  "permissions": ["notifications"],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "procart_no_background.png",
+    "default_title": "View your carts & budget"
+  },
+  "icons": {
+    "16": "procart_no_background.png",
+    "48": "procart_no_background.png",
+    "128": "procart_no_background.png"
+  }
 }
