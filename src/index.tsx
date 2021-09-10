@@ -2,16 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import MainPage from './MainPage';
-import NavBar from './components/NavBar';
-import Header from './components/Header';
-import Cart from './components/Cart';
+import {
+  Router,
+  Link,
+  goBack,
+  goTo,
+  popToTop
+} from "react-chrome-extension-router";
+import Cart from './pages/Cart';
+import Budget from './pages/Budget';
+import History from './pages/History';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Cart />
-    <NavBar />
+    <Router>
+      <Cart />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

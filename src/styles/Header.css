@@ -33,11 +33,16 @@ img.procart-logo {
     display:inline;
 }
 
+.header-icon {
+    position:fixed;
+    right:25px;
+    top:25px;
+}
+
 .header-title {
     font-size:25px;
     font-weight:600;
     margin-left:10px;
-    margin-right:120px;
 }
 
 .header b {
