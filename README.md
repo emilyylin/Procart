@@ -6,7 +6,7 @@ Whether it’s due to the younger shopper’s nature for impulse purchasing or a
 
 https://www.canva.com/design/DAEp5avuHUM/l2TK8HgNgiNpyIz7uKiLNA/view?utm_content=DAEp5avuHUM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
-# Design
+## Design
 View our Figma prototype: https://www.figma.com/file/vwsgp856Vn6KjGTX8SknDk/Hackweek-1?node-id=0%3A1
 # What it does
 ProCart is a chrome extension that facilitates proactive budgeting, cart saving, and responsible online shopping.
