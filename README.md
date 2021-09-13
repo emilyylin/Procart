@@ -12,13 +12,13 @@ View our Figma prototype: https://www.figma.com/file/vwsgp856Vn6KjGTX8SknDk/Hack
 ProCart is a chrome extension that facilitates proactive budgeting, cart saving, and responsible online shopping.
 ## 4 key features:
 All these features were planned and designed by ultimately trying to achieve the end goal of creating a seamless online shopping experience for users who tend to overspend or want to be more aware and responsible with their purchases. 
-### Smart Notifications
+#### Smart Notifications
 A reminder would pop up everytime a user with the extension opens up certain shopping sites that they have visited & purchased from in the past. This would include when they made the purchase and how much it was for. Before making their purchase, it will remind users if their next purchase will take them past the budget for that month for that specific budgeting category.
-### Saved and Shared Carts
+#### Saved and Shared Carts
 This section was designed to alleviate pressure on users who can feel pressured to checkout. Procart gives them time to think before purchasing, potentially come back at a later date. This would also enable shared shopping experiences between friends, where everyone with access to the code linked with the specific cart could find and make edits.
-### Purchase History
+#### Purchase History
 A purchase history section was included to keep users aware of their spending habits & to have that information readily available. This is a next step, as we have not yet integrated our product with any banks.
-### Category Budgeting
+#### Category Budgeting
 Ideally, we would link our product with a budgeting app similar to TD MySpend, allowing users to visually see how much spending they have available to them by category based on the budget they’ve set for themselves.
 # Tools & Technology we used
 MongoDB, Express, Node.js. React, Google Chrome API, TypeScript, Cheerio, Figma
