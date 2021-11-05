@@ -22,3 +22,5 @@ A purchase history section was included to keep users aware of their spending ha
 Ideally, we would link our product with a budgeting app similar to TD MySpend, allowing users to visually see how much spending they have available to them by category based on the budget they’ve set for themselves.
 # Tools & Technology we used
 MongoDB, Express, Node.js. React, Google Chrome API, TypeScript, Cheerio, Figma
+
+Designed by Rachel Curwen & Devanshi Paliwal. Developed by Emily Lin
