@@ -5,7 +5,7 @@ It’s not a surprise that in 2020 with multiple lockdowns and people at home, w
 Whether it’s due to the younger shopper’s nature for impulse purchasing or a lack of knowing where to start saving, it’s a problem that needs to be addressed.
 
 ## Design
-View our Presentation: https://www.canva.com/design/DAEp5avuHUM/l2TK8HgNgiNpyIz7uKiLNA/view?utm_content=DAEp5avuHUM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+View our Presentation: https://drive.google.com/file/d/1P11Tec4KZKdpKS9Ljc2ILfdC6LbN-Fjx/view?usp=sharing
 <br>View our Figma prototype: https://www.figma.com/file/vwsgp856Vn6KjGTX8SknDk/Hackweek-1?node-id=0%3A1
 <br>View our Video Demo: https://youtu.be/0KMSVUQ3TFk
 # What it does
